@@ -1,0 +1,63 @@
+@keyframes Rainbow-background {
+  0%      {background-color: violet;}
+  16.66%  {background-color: indigo;}
+  33.32%  {background-color: blue;}
+  49.98%  {background-color: green;}
+  66.64%  {background-color: yellow;}
+  83.3%   {background-color: orange;}
+  100%    {background-color: red;}
+
+}
+
+body{
+  animation-name: Rainbow-background;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.Whole-block{
+  font-family: arial;
+  padding-left: 50px;
+}
+
+.Image-block{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Image{
+  border-radius: 50px;
+}
+
+.Image:hover{
+
+}
+
+.Name-and-contact-block{
+  display: inline-block;
+}
+
+.Name{
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Details{
+  font-size: 13px;
+}
+
+.Table-text{
+  padding-top: 20px;
+}
+
+.Experiences-block{
+  margin-bottom: 20px;
+}
+
+.Block-title{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
