@@ -9,6 +9,10 @@
 
 }
 
+@keyframes spin{
+  100% {transform: rotate(360deg);}
+}
+
 body{
   animation-name: Rainbow-background;
   animation-duration: 1s;
@@ -23,14 +27,21 @@ body{
 .Image-block{
   display: inline-block;
   vertical-align: top;
+  transition: transform 4s;
 }
+
+.Image-block:hover{
+  transform: scale(7);
+}
+
 
 .Image{
   border-radius: 50px;
+	transition: transform 4s;
 }
 
 .Image:hover{
-
+  transform: rotate(10000deg);
 }
 
 .Name-and-contact-block{
